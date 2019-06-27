@@ -1,8 +1,10 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.github.dcendents.android-maven'
+group='harish.dev'
+version='1.0'
 android {
     compileSdkVersion 28
-    buildToolsVersion "29.0.0"
+    
 
 
     defaultConfig {
